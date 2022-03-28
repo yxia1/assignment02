@@ -3,7 +3,7 @@
 ## Part 3: Project Writeup and Reflection
 
 ### Project Overview
-In this project, wikipedia and imdb data sources was used. The main tool used in this project is Natural Language Toolkit. Through this project, I want to learn how to use NLTK to process text for sentiment analysis and word distribution
+In this project, wikipedia and imdb data sources was used. The main tool used in this project is Natural Language Toolkit. Through this project, I want to learn how to use NLTK to process text for sentiment analysis and word distribution to access which movie receive better review.
 
 ### Implementation
 I chose to get movie data from wikipedia and imdb review to gauge the sentiment appears on two different sites. For wikipedia, my hypothesis is that the sentiments for two movies would be similar because the content wikipedia is usually facts instead of opinions. Therefore, the text should contain more neutral words. To guage this I functions to process data from two websites and to run sentiment analysis were written.
@@ -32,4 +32,4 @@ For the word distribution, I chose to exclude stop words. Comparing the results 
 ![Results](images/figure_2.png)
 
 ### Reflection
-The use of those toolkits are in general easy and very straight-forward. However, I found one issue with pip install. After installation, the library is not shown when I import them. I need to restart the computer to make it work. I have done some research online but I still cannot figure out why. If I can start the project again, I would like to know how to solve this issue. I would also want to have a better knowledge of the matplotlib to generate more graphs from this project. Although I think my project makes sense, I would like to run more analysis with it if I have more time. Overall, the assignment is a useful exercise to apply text analysis in python for me.
+The use of those toolkits are in general easy and very straight-forward. However, I found one issue with pip install. After installation, the library is not shown when I import them. I need to restart the computer to make it work. I have done some research online but I still cannot figure out why. If I can start the project again, I would like to know how to solve this issue. I would also want to have a better knowledge of the matplotlib to generate more graphs from this project. Although I think my project makes sense, I would like to run more analysis with it if I have more time. For example, I would design the project to run multiple reveiw on imdb to get a average result for the sentiment analysis. Overall, the assignment is a useful exercise to apply text analysis in python for me. 
