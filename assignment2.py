@@ -6,6 +6,7 @@ from nltk.probability import FreqDist
 import matplotlib.pyplot as plt
 from nltk.corpus import stopwords
 
+
 def imdb(movie_title):
     """This function takes a movie title (str) returns its first review"""
     ia = Cinemagoer()
